@@ -1,0 +1,351 @@
+++ Input coordinates orientation set by default rules to RAI
++++++++ nearby Atlas structures +++++++
+
+Original input data coordinates in TLRC space
+
+Focus point (LPI)                   	Coord.Space 
+ -12 mm [L],  -42 mm [P],   60 mm [S]	{TLRC}                                                          
+ -12 mm [L],  -46 mm [P],   63 mm [S]	{MNI}                                                           
+ -12 mm [L],  -50 mm [P],   68 mm [S]	{MNI_ANAT}                                                      
+Atlas          	Within	Label                           	Prob.	Code
+MNI_Glasser_HCP_v1.0	0.0	L_Area_5L                       	 MPM	39 
+MNI_Glasser_HCP_v1.0	1.0	L_Area_5m                       	 MPM	36 
+MNI_Glasser_HCP_v1.0	2.0	L_Area_5m_ventral               	 MPM	37 
+MNI_Glasser_HCP_v1.0	4.0	L_Medial_Area_7A                	 MPM	45 
+MNI_Glasser_HCP_v1.0	6.0	L_Lateral_Area_7A               	 MPM	42 
+Brainnetome_1.0	0.0	A5m_left                        	 MPM	149
+Brainnetome_1.0	2.0	A1/2/3ll_left                   	 MPM	65 
+Brainnetome_1.0	4.0	A7pc_left                       	 MPM	131
+Brainnetome_1.0	7.0	A7r_left                        	 MPM	125
+Brainnetome_1.0	7.0	A1/2/3tru_left                  	 MPM	161
+CA_ML_18_MNI   	0.0	Left Precuneus                  	 ---	67 
+CA_ML_18_MNI   	4.0	Left Superior Parietal Lobule   	 ---	59 
+CA_ML_18_MNI   	6.0	Left Paracentral Lobule         	 ---	69 
+CA_ML_18_MNI   	7.0	Left Postcentral Gyrus          	 ---	57 
+CA_MPM_22_MNI  	0.0	Area_5M_(SPL)                   	 MPM	241
+CA_MPM_22_MNI  	1.0	Area_5L_(SPL)                   	 MPM	159
+CA_MPM_22_MNI  	3.0	Area_3a                         	 MPM	250
+CA_MPM_22_MNI  	5.0	Area_3b                         	 MPM	187
+CA_MPM_22_MNI  	6.0	Area_4a                         	 MPM	160
+DD_Desai_MPM   	0.0	Left-Cerebral-White-Matter      	 MPM	151
+DD_Desai_MPM   	3.0	ctx_lh_G_and_S_paracentral      	 MPM	3  
+DD_Desai_MPM   	7.0	ctx_lh_G_postcentral            	 MPM	28 
+DKD_Desai_MPM  	0.0	Left-Cerebral-White-Matter      	 MPM	71 
+DKD_Desai_MPM  	4.0	ctx-lh-postcentral              	 MPM	22 
+CA_GW_18_MNIA  	0.0	grey                            	0.54	0  
+CA_GW_18_MNIA  	0.0	white                           	0.37	1  
+CA_N27_LR      	0.0	Left Brain                      	 ---	2  
+TT_Daemon      	0.0	Left  Paracentral Lobule        	 MPM	248
+TT_Daemon      	3.0	Left  Precuneus                 	 MPM	245
+TT_Daemon      	3.0	Left  Postcentral Gyrus         	 MPM	249
+TT_Daemon      	3.0	Left  Brodmann area 5           	 MPM	285
+TT_Daemon      	3.0	Left  Brodmann area 7           	 MPM	287
+TT_Daemon      	5.0	Left  Brodmann area 3           	 MPM	283
+TT_Daemon      	5.0	Left  Brodmann area 4           	 MPM	284
+TT_Daemon      	7.0	Left  Superior Parietal Lobule  	 MPM	246
+
+******** Please use results with caution! ********
+******** Brain anatomy is quite variable! ********
+******** The database may contain errors! ********
+
++++++++ nearby Atlas structures +++++++
+
+Original input data coordinates in TLRC space
+
+Focus point (LPI)                   	Coord.Space 
+ -33 mm [L],  -18 mm [P],    9 mm [S]	{TLRC}                                                          
+ -33 mm [L],  -19 mm [P],    9 mm [S]	{MNI}                                                           
+ -33 mm [L],  -23 mm [P],   14 mm [S]	{MNI_ANAT}                                                      
+Atlas          	Within	Label                           	Prob.	Code
+MNI_Glasser_HCP_v1.0	1.0	L_Area_Posterior_Insular_1      	 MPM	167
+MNI_Glasser_HCP_v1.0	1.0	L_Insular_Granular_Complex      	 MPM	168
+MNI_Glasser_HCP_v1.0	3.0	L_Area_52                       	 MPM	103
+MNI_Glasser_HCP_v1.0	5.0	L_Posterior_Insular_Area_2      	 MPM	106
+MNI_Glasser_HCP_v1.0	5.0	L_Medial_Belt_Complex           	 MPM	173
+MNI_Glasser_HCP_v1.0	7.0	L_Primary_Auditory_Cortex       	 MPM	24 
+Brainnetome_1.0	0.0	G_left                          	 MPM	163
+Brainnetome_1.0	3.0	dlPu_left                       	 MPM	229
+Brainnetome_1.0	5.0	dIg_left                        	 MPM	171
+Brainnetome_1.0	6.0	TE1.0_1.2_left                  	 MPM	73 
+Brainnetome_1.0	7.0	GP_left                         	 MPM	221
+CA_ML_18_MNI   	0.0	Left Insula Lobe                	 ---	29 
+CA_ML_18_MNI   	2.0	Left Heschls Gyrus              	 ---	79 
+CA_ML_18_MNI   	3.0	Left Putamen                    	 ---	73 
+CA_ML_18_MNI   	7.0	Left Rolandic Operculum         	 ---	17 
+CA_MPM_22_MNI  	0.0	Area_Ig2                        	 MPM	204
+CA_MPM_22_MNI  	2.0	Area_Ig1                        	 MPM	236
+CA_MPM_22_MNI  	4.0	Area_OP3_(VS)                   	 MPM	147
+CA_MPM_22_MNI  	5.0	Area_OP2_(PIVC)                 	 MPM	139
+CA_MPM_22_MNI  	6.0	Area_TE_1.1                     	 MPM	213
+CA_MPM_22_MNI  	7.0	Area_OP1_(SII)                  	 MPM	122
+DD_Desai_MPM   	0.0	ctx_lh_S_circular_insula_inf    	 MPM	49 
+DD_Desai_MPM   	1.0	Left-Cerebral-White-Matter      	 MPM	151
+DD_Desai_MPM   	2.0	ctx_lh_G_Ins_lg_and_S_cent_ins  	 MPM	17 
+DD_Desai_MPM   	3.0	ctx_lh_G_temp_sup-G_T_transv    	 MPM	33 
+DD_Desai_MPM   	5.0	Left-Putamen                    	 MPM	158
+DD_Desai_MPM   	7.0	ctx_lh_S_circular_insula_sup    	 MPM	50 
+DD_Desai_MPM   	7.0	ctx_lh_Lat_Fis-post             	 MPM	41 
+DD_Desai_MPM   	7.0	ctx_lh_G_and_S_subcentral       	 MPM	4  
+DKD_Desai_MPM  	0.0	ctx-lh-insula                   	 MPM	35 
+DKD_Desai_MPM  	2.0	Left-Cerebral-White-Matter      	 MPM	71 
+DKD_Desai_MPM  	4.0	ctx-lh-transversetemporal       	 MPM	34 
+DKD_Desai_MPM  	5.0	Left-Putamen                    	 MPM	78 
+DKD_Desai_MPM  	7.0	ctx-lh-postcentral              	 MPM	22 
+CA_GW_18_MNIA  	0.0	grey                            	0.33	0  
+CA_GW_18_MNIA  	0.0	white                           	0.68	1  
+CA_N27_LR      	0.0	Left Brain                      	 ---	2  
+TT_Daemon      	0.0	Left  Claustrum                 	 MPM	275
+TT_Daemon      	1.0	Left  Insula                    	 MPM	230
+TT_Daemon      	3.0	Left  Lentiform Nucleus         	 MPM	270
+TT_Daemon      	3.0	Left  Putamen                   	 MPM	351
+TT_Daemon      	4.0	Left  Brodmann area 13          	 MPM	293
+TT_Daemon      	7.0	Left  Transverse Temporal Gyrus 	 MPM	224
+TT_Daemon      	7.0	Left  Superior Temporal Gyrus   	 MPM	236
+TT_Daemon      	7.0	Left  Brodmann area 41          	 MPM	317
+
+******** Please use results with caution! ********
+******** Brain anatomy is quite variable! ********
+******** The database may contain errors! ********
+
++++++++ nearby Atlas structures +++++++
+
+Original input data coordinates in TLRC space
+
+Focus point (LPI)                   	Coord.Space 
+ -18 mm [L],  -15 mm [P],   63 mm [S]	{TLRC}                                                          
+ -18 mm [L],  -19 mm [P],   68 mm [S]	{MNI}                                                           
+ -18 mm [L],  -23 mm [P],   73 mm [S]	{MNI_ANAT}                                                      
+Atlas          	Within	Label                           	Prob.	Code
+MNI_Glasser_HCP_v1.0	0.0	L_Area_6mp                      	 MPM	55 
+MNI_Glasser_HCP_v1.0	5.0	L_Primary_Motor_Cortex          	 MPM	8  
+Brainnetome_1.0	0.0	A4t_left                        	 MPM	59 
+Brainnetome_1.0	2.0	A4ul_left                       	 MPM	57 
+Brainnetome_1.0	3.0	A6cdl_left                      	 MPM	55 
+CA_ML_18_MNI   	0.0	Left Precentral Gyrus           	 ---	1  
+CA_ML_18_MNI   	1.0	Left Paracentral Lobule         	 ---	69 
+CA_ML_18_MNI   	7.0	Left Postcentral Gyrus          	 ---	57 
+CA_ML_18_MNI   	7.0	Left SMA                        	 ---	19 
+CA_MPM_22_MNI  	3.0	Area_4a                         	 MPM	160
+DD_Desai_MPM   	0.0	ctx_lh_G_front_sup              	 MPM	16 
+DD_Desai_MPM   	1.0	Left-Cerebral-White-Matter      	 MPM	151
+DD_Desai_MPM   	2.0	ctx_lh_G_precentral             	 MPM	29 
+DKD_Desai_MPM  	0.0	ctx-lh-superiorfrontal          	 MPM	28 
+DKD_Desai_MPM  	1.0	ctx-lh-precentral               	 MPM	24 
+DKD_Desai_MPM  	2.0	Left-Cerebral-White-Matter      	 MPM	71 
+CA_GW_18_MNIA  	0.0	grey                            	0.33	0  
+CA_GW_18_MNIA  	0.0	white                           	0.66	1  
+CA_N27_LR      	0.0	Left Brain                      	 ---	2  
+TT_Daemon      	0.0	Left  Precentral Gyrus          	 MPM	250
+TT_Daemon      	1.0	Left  Middle Frontal Gyrus      	 MPM	247
+TT_Daemon      	1.0	Left  Superior Frontal Gyrus    	 MPM	251
+TT_Daemon      	1.0	Left  Brodmann area 6           	 MPM	286
+TT_Daemon      	7.0	Left  Medial Frontal Gyrus      	 MPM	252
+
+******** Please use results with caution! ********
+******** Brain anatomy is quite variable! ********
+******** The database may contain errors! ********
+
++++++++ nearby Atlas structures +++++++
+
+Original input data coordinates in TLRC space
+
+Focus point (LPI)                   	Coord.Space 
+ -27 mm [L],   -6 mm [P],   36 mm [S]	{TLRC}                                                          
+ -27 mm [L],   -8 mm [P],   39 mm [S]	{MNI}                                                           
+ -27 mm [L],  -12 mm [P],   44 mm [S]	{MNI_ANAT}                                                      
+Atlas          	Within	Label                           	Prob.	Code
+MNI_Glasser_HCP_v1.0	6.0	L_Area_6_anterior               	 MPM	96 
+Brainnetome_1.0	5.0	A6cdl_left                      	 MPM	55 
+Brainnetome_1.0	5.0	A6vl_left                       	 MPM	25 
+CA_ML_18_MNI   	5.0	Left Precentral Gyrus           	 ---	1  
+DD_Desai_MPM   	0.0	Left-Cerebral-White-Matter      	 MPM	151
+DKD_Desai_MPM  	0.0	Left-Cerebral-White-Matter      	 MPM	71 
+CA_GW_18_MNIA  	0.0	grey                            	0.01	0  
+CA_GW_18_MNIA  	0.0	white                           	0.00	1  
+CA_N27_LR      	0.0	Left Brain                      	 ---	2  
+TT_Daemon      	0.0	Left  Middle Frontal Gyrus      	 MPM	247
+TT_Daemon      	7.0	Left  Precentral Gyrus          	 MPM	250
+TT_Daemon      	7.0	Left  Brodmann area 6           	 MPM	286
+
+******** Please use results with caution! ********
+******** Brain anatomy is quite variable! ********
+******** The database may contain errors! ********
+
++++++++ nearby Atlas structures +++++++
+
+Original input data coordinates in TLRC space
+
+Focus point (LPI)                   	Coord.Space 
+ -45 mm [L],  -84 mm [P],   33 mm [S]	{TLRC}                                                          
+ -45 mm [L],  -88 mm [P],   31 mm [S]	{MNI}                                                           
+ -45 mm [L],  -92 mm [P],   36 mm [S]	{MNI_ANAT}                                                      
+Atlas          	Within	Label                           	Prob.	Code
+MNI_Glasser_HCP_v1.0	4.0	L_Area_PGp                      	 MPM	143
+MNI_Glasser_HCP_v1.0	4.0	L_Area_PGs                      	 MPM	151
+Brainnetome_1.0	4.0	A39c_left                       	 MPM	135
+CA_ML_18_MNI   	5.0	Left Middle Occipital Gyrus     	 ---	51 
+CA_MPM_22_MNI  	4.0	Area_PGp_(IPL)                  	 MPM	198
+DD_Desai_MPM   	7.0	ctx_lh_G_pariet_inf-Angular     	 MPM	25 
+DKD_Desai_MPM  	7.0	ctx-lh-inferiorparietal         	 MPM	8  
+TT_Daemon      	0.0	Left  Superior Occipital Gyrus  	 MPM	237
+TT_Daemon      	5.0	Left  Brodmann area 19          	 MPM	296
+TT_Daemon      	6.0	Left  Angular Gyrus             	 MPM	241
+TT_Daemon      	7.0	Left  Middle Temporal Gyrus     	 MPM	235
+
+******** Please use results with caution! ********
+******** Brain anatomy is quite variable! ********
+******** The database may contain errors! ********
+
++++++++ nearby Atlas structures +++++++
+
+Original input data coordinates in TLRC space
+
+Focus point (LPI)                   	Coord.Space 
+   6 mm [R],  -66 mm [P],   57 mm [S]	{TLRC}                                                          
+   6 mm [R],  -71 mm [P],   58 mm [S]	{MNI}                                                           
+   6 mm [R],  -75 mm [P],   63 mm [S]	{MNI_ANAT}                                                      
+Atlas          	Within	Label                           	Prob.	Code
+MNI_Glasser_HCP_v1.0	0.0	R_Medial_Area_7P                	 MPM	1029
+MNI_Glasser_HCP_v1.0	1.0	R_Lateral_Area_7P               	 MPM	1046
+MNI_Glasser_HCP_v1.0	4.0	R_Medial_Area_7A                	 MPM	1045
+MNI_Glasser_HCP_v1.0	6.0	R_Parieto-Occipital_Sulcus_Area_2	 MPM	1015
+MNI_Glasser_HCP_v1.0	7.0	L_Medial_Area_7P                	 MPM	29 
+Brainnetome_1.0	0.0	A7m_right                       	 MPM	148
+Brainnetome_1.0	1.0	A7c_right                       	 MPM	128
+Brainnetome_1.0	5.0	A7r_right                       	 MPM	126
+Brainnetome_1.0	7.0	A7m_left                        	 MPM	147
+CA_ML_18_MNI   	0.0	Right Precuneus                 	 ---	68 
+CA_ML_18_MNI   	6.0	Left Precuneus                  	 ---	67 
+CA_MPM_22_MNI  	0.0	Area_7P_(SPL)                   	 MPM	224
+CA_MPM_22_MNI  	1.0	Area_7A_(SPL)                   	 MPM	165
+DD_Desai_MPM   	0.0	ctx_rh_G_precuneus              	 MPM	105
+DD_Desai_MPM   	1.0	ctx_rh_G_parietal_sup           	 MPM	102
+DD_Desai_MPM   	7.0	Right-Cerebral-White-Matter     	 MPM	169
+DD_Desai_MPM   	7.0	ctx_lh_G_precuneus              	 MPM	30 
+DD_Desai_MPM   	7.0	ctx_lh_G_and_S_frontomargin     	 MPM	1  
+DKD_Desai_MPM  	0.0	ctx-rh-superiorparietal         	 MPM	64 
+DKD_Desai_MPM  	5.0	ctx-rh-precuneus                	 MPM	60 
+DKD_Desai_MPM  	7.0	ctx-lh-precuneus                	 MPM	25 
+DKD_Desai_MPM  	7.0	Right-Cerebral-White-Matter     	 MPM	89 
+CA_GW_18_MNIA  	0.0	grey                            	0.62	0  
+CA_GW_18_MNIA  	0.0	white                           	0.25	1  
+CA_N27_LR      	0.0	Right Brain                     	 ---	1  
+CA_N27_LR      	6.0	Left Brain                      	 ---	2  
+TT_Daemon      	0.0	Right Superior Parietal Lobule  	 MPM	46 
+TT_Daemon      	0.0	Right Brodmann area 7           	 MPM	87 
+TT_Daemon      	3.0	Right Precuneus                 	 MPM	45 
+
+******** Please use results with caution! ********
+******** Brain anatomy is quite variable! ********
+******** The database may contain errors! ********
+
++++++++ nearby Atlas structures +++++++
+
+Original input data coordinates in TLRC space
+
+Focus point (LPI)                   	Coord.Space 
+  36 mm [R],  -78 mm [P],   33 mm [S]	{TLRC}                                                          
+  36 mm [R],  -82 mm [P],   32 mm [S]	{MNI}                                                           
+  36 mm [R],  -86 mm [P],   37 mm [S]	{MNI_ANAT}                                                      
+Atlas          	Within	Label                           	Prob.	Code
+MNI_Glasser_HCP_v1.0	0.0	R_Area_PGp                      	 MPM	1143
+MNI_Glasser_HCP_v1.0	4.0	R_Area_IntraParietal_0          	 MPM	1146
+MNI_Glasser_HCP_v1.0	4.0	R_Seventh_Visual_Area           	 MPM	1016
+MNI_Glasser_HCP_v1.0	5.0	R_Area_PGs                      	 MPM	1151
+MNI_Glasser_HCP_v1.0	7.0	R_IntraParietal_Sulcus_Area_1   	 MPM	1017
+MNI_Glasser_HCP_v1.0	7.0	R_Area_V3B                      	 MPM	1019
+MNI_Glasser_HCP_v1.0	7.0	R_Area_IntraParietal_1          	 MPM	1145
+MNI_Glasser_HCP_v1.0	7.0	R_Area_V3A                      	 MPM	1013
+Brainnetome_1.0	0.0	A39c_right                      	 MPM	136
+Brainnetome_1.0	1.0	lsOccG_right                    	 MPM	210
+Brainnetome_1.0	1.0	A39rd_right                     	 MPM	138
+Brainnetome_1.0	6.0	mOccG_right                     	 MPM	200
+CA_ML_18_MNI   	0.0	Right Middle Occipital Gyrus    	 ---	52 
+CA_ML_18_MNI   	7.0	Right Superior Occipital Gyrus  	 ---	50 
+CA_MPM_22_MNI  	1.0	Area_PGp_(IPL)                  	 MPM	198
+CA_MPM_22_MNI  	7.0	Area_hOc4lp                     	 MPM	233
+DD_Desai_MPM   	0.0	ctx_rh_G_pariet_inf-Angular     	 MPM	100
+DD_Desai_MPM   	1.0	ctx_rh_G_occipital_middle       	 MPM	94 
+DD_Desai_MPM   	4.0	Right-Cerebral-White-Matter     	 MPM	169
+DD_Desai_MPM   	7.0	ctx_rh_G_occipital_sup          	 MPM	95 
+DKD_Desai_MPM  	0.0	ctx-rh-inferiorparietal         	 MPM	43 
+CA_GW_18_MNIA  	0.0	grey                            	0.65	0  
+CA_GW_18_MNIA  	0.0	white                           	0.34	1  
+CA_N27_LR      	0.0	Right Brain                     	 ---	1  
+TT_Daemon      	0.0	Right Superior Occipital Gyrus  	 MPM	37 
+TT_Daemon      	0.0	Right Brodmann area 19          	 MPM	96 
+TT_Daemon      	1.0	Right Precuneus                 	 MPM	45 
+TT_Daemon      	2.0	Right Angular Gyrus             	 MPM	41 
+TT_Daemon      	2.0	Right Brodmann area 39          	 MPM	115
+TT_Daemon      	4.0	Right Cuneus                    	 MPM	40 
+TT_Daemon      	7.0	Right Middle Temporal Gyrus     	 MPM	35 
+
+******** Please use results with caution! ********
+******** Brain anatomy is quite variable! ********
+******** The database may contain errors! ********
+
++++++++ nearby Atlas structures +++++++
+
+Original input data coordinates in TLRC space
+
+Focus point (LPI)                   	Coord.Space 
+   3 mm [R],  -30 mm [P],   75 mm [S]	{TLRC}                                                          
+   3 mm [R],  -35 mm [P],   80 mm [S]	{MNI}                                                           
+   3 mm [R],  -39 mm [P],   85 mm [S]	{MNI_ANAT}                                                      
+Atlas          	Within	Label                           	Prob.	Code
+MNI_Glasser_HCP_v1.0	2.0	R_Primary_Sensory_Cortex        	 MPM	1009
+MNI_Glasser_HCP_v1.0	4.0	R_Area_3a                       	 MPM	1053
+MNI_Glasser_HCP_v1.0	5.0	R_Primary_Motor_Cortex          	 MPM	1008
+MNI_Glasser_HCP_v1.0	7.0	L_Primary_Motor_Cortex          	 MPM	8  
+Brainnetome_1.0	3.0	A1/2/3tru_right                 	 MPM	162
+Brainnetome_1.0	6.0	A4ll_right                      	 MPM	68 
+Brainnetome_1.0	6.0	A4t_right                       	 MPM	60 
+Brainnetome_1.0	7.0	A1/2/3ll_right                  	 MPM	66 
+CA_ML_18_MNI   	1.0	Right Paracentral Lobule        	 ---	70 
+CA_ML_18_MNI   	4.0	Left Paracentral Lobule         	 ---	69 
+CA_ML_18_MNI   	6.0	Right Postcentral Gyrus         	 ---	58 
+CA_ML_18_MNI   	6.0	Left Precuneus                  	 ---	67 
+CA_MPM_22_MNI  	3.0	Area_4a                         	 MPM	160
+DD_Desai_MPM   	4.0	ctx_rh_G_and_S_paracentral      	 MPM	78 
+DKD_Desai_MPM  	5.0	ctx-rh-paracentral              	 MPM	52 
+DKD_Desai_MPM  	5.0	ctx-rh-precentral               	 MPM	59 
+DKD_Desai_MPM  	7.0	ctx-rh-postcentral              	 MPM	57 
+CA_GW_18_MNIA  	0.0	grey                            	0.15	0  
+CA_GW_18_MNIA  	0.0	white                           	0.04	1  
+CA_N27_LR      	5.0	Right Brain                     	 ---	1  
+
+******** Please use results with caution! ********
+******** Brain anatomy is quite variable! ********
+******** The database may contain errors! ********
+
++++++++ nearby Atlas structures +++++++
+
+Original input data coordinates in TLRC space
+
+Focus point (LPI)                   	Coord.Space 
+  15 mm [R],  -15 mm [P],   36 mm [S]	{TLRC}                                                          
+  15 mm [R],  -17 mm [P],   38 mm [S]	{MNI}                                                           
+  15 mm [R],  -21 mm [P],   43 mm [S]	{MNI_ANAT}                                                      
+Atlas          	Within	Label                           	Prob.	Code
+MNI_Glasser_HCP_v1.0	1.0	R_Area_23c                      	 MPM	1038
+MNI_Glasser_HCP_v1.0	3.0	R_Area_5m_ventral               	 MPM	1037
+MNI_Glasser_HCP_v1.0	4.0	R_Dorsal_Area_24d               	 MPM	1040
+Brainnetome_1.0	1.0	A1/2/3ll_right                  	 MPM	66 
+Brainnetome_1.0	1.0	A23c_right                      	 MPM	186
+Brainnetome_1.0	7.0	A4ll_right                      	 MPM	68 
+CA_ML_18_MNI   	2.0	Right Middle Cingulate Cortex   	 ---	34 
+DD_Desai_MPM   	0.0	Right-Cerebral-White-Matter     	 MPM	169
+DD_Desai_MPM   	5.0	ctx_rh_G_and_S_cingul-Mid-Post  	 MPM	83 
+DKD_Desai_MPM  	0.0	Right-Cerebral-White-Matter     	 MPM	89 
+DKD_Desai_MPM  	7.0	ctx-rh-posteriorcingulate       	 MPM	58 
+CA_GW_18_MNIA  	0.0	grey                            	0.04	0  
+CA_GW_18_MNIA  	0.0	white                           	0.98	1  
+CA_N27_LR      	0.0	Right Brain                     	 ---	1  
+TT_Daemon      	0.0	Right Cingulate Gyrus           	 MPM	43 
+TT_Daemon      	2.0	Right Brodmann area 24          	 MPM	101
+TT_Daemon      	5.0	Right Brodmann area 31          	 MPM	107
+
+******** Please use results with caution! ********
+******** Brain anatomy is quite variable! ********
+******** The database may contain errors! ********
+
