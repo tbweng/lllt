@@ -1,0 +1,24 @@
+#
+#  Cluster report 
+#[ Dataset prefix      = lme.nii.gz ]
+#[ Threshold vol       = [5] 'Time:TxGroup  F' ]
+#[ Supplement dat vol  = (none) ]
+#[ Option summary      = 1sided,RIGHT_TAIL,p=0.05,clust_nvox,69,NN1 ]
+#[ Threshold value(s)  = right-tail p=0.050000 -> stat=2.785604 ]
+#[ Aux. stat. info.    = NUMERATOR and DENOMINATOR DEGREES-of-FREEDOM : 1  64  ]
+#[ Nvoxel threshold    = 69;  Volume threshold = 1863.000 ]
+#[ Single voxel volume = 27.000 (microliters) ]
+#[ Neighbor type, NN   = 1 ]
+#[ Voxel datum type    = float ]
+#[ Voxel dimensions    = 3.000 mm X 3.000 mm X 3.000 mm ]
+#[ Coordinates Order   = RAI ]
+#[ Mask                = mask.nii.gz ]
+# Mean and SEM based on absolute value of voxel intensities ]
+#
+#Volume  CM RL  CM AP  CM IS  minRL  maxRL  minAP  maxAP  minIS  maxIS    Mean     SEM    Max Int  MI RL  MI AP  MI IS
+#------  -----  -----  -----  -----  -----  -----  -----  -----  -----  -------  -------  -------  -----  -----  -----
+    122   26.6  -50.1   10.4   18.0   36.0  -63.0  -39.0    0.0   27.0   5.7592   0.2357   15.019   30.0  -48.0    9.0 
+     92   27.9   54.7   30.5   15.0   39.0   42.0   72.0   21.0   42.0   5.5058   0.2533   14.221   36.0   51.0   30.0 
+     86  -20.8   -8.7   59.4  -30.0   -9.0  -18.0    3.0   45.0   72.0   4.6983   0.1774   11.298  -21.0   -9.0   54.0 
+#------  -----  -----  -----  -----  -----  -----  -----  -----  -----  -------  -------  -------  -----  -----  -----
+#   300   15.2   -6.8   29.0                                             5.3774   0.1355                             
