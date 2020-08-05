@@ -1,0 +1,326 @@
+Node: datasink (io)
+===================
+
+
+ Hierarchy : Level2_wf.datasink
+ Exec ID : datasink
+
+
+Original Inputs
+---------------
+
+
+* _outputs : {u'stats_dir': u'/scratch/05201/bhickson/preprocdata/level2/noGSR/A/cope/6/Level2_wf/flameo/stats'}
+* base_directory : /scratch/05201/bhickson/preprocdata/level2/noGSR/A/cope/6/L2
+* bucket : <undefined>
+* container : <undefined>
+* creds_path : <undefined>
+* encrypt_bucket_keys : <undefined>
+* local_copy : <undefined>
+* parameterization : True
+* regexp_substitutions : <undefined>
+* remove_dest_dir : False
+* strip_dir : <undefined>
+* substitutions : <undefined>
+
+Execution Inputs
+----------------
+
+
+* _outputs : {u'stats_dir': u'/scratch/05201/bhickson/preprocdata/level2/noGSR/A/cope/6/Level2_wf/flameo/stats'}
+* base_directory : /scratch/05201/bhickson/preprocdata/level2/noGSR/A/cope/6/L2
+* bucket : <undefined>
+* container : <undefined>
+* creds_path : <undefined>
+* encrypt_bucket_keys : <undefined>
+* local_copy : <undefined>
+* parameterization : True
+* regexp_substitutions : <undefined>
+* remove_dest_dir : False
+* strip_dir : <undefined>
+* substitutions : <undefined>
+
+
+Execution Outputs
+-----------------
+
+
+* out_file : [u'/scratch/05201/bhickson/preprocdata/level2/noGSR/A/cope/6/L2/stats_dir/stats']
+
+
+Runtime info
+------------
+
+
+* duration : 2.046729
+* hostname : login1
+* prev_wd : /scratch/05201/bhickson/preprocdata
+* working_dir : /scratch/05201/bhickson/preprocdata/level2/noGSR/A/cope/6/Level2_wf/datasink
+
+
+Environment
+~~~~~~~~~~~
+
+
+* APPS : /opt/apps
+* ARCHIVE : /home/06028/tbweng
+* ARCHIVER : ranch.tacc.utexas.edu
+* BASH_ENV : /etc/tacc/tacc_functions
+* BATCHER_DIR : /home1/06028/tbweng/batcher_dir
+* C3DPATH : /opt/c3d/
+* CLICOLOR : 1
+* COLORTERM : 1
+* COLUMNS : 225
+* COMPILER_PATH : /opt/apps/xalt/xalt/bin
+* CONDA_DEFAULT_ENV : base
+* CONDA_EXE : /home1/06028/tbweng/miniconda3/bin/conda
+* CONDA_PREFIX : /home1/06028/tbweng/miniconda3
+* CONDA_PROMPT_MODIFIER : (base) 
+* CONDA_PYTHON_EXE : /home1/06028/tbweng/miniconda3/bin/python
+* CONDA_SHLVL : 1
+* CPATH : /opt/intel/compilers_and_libraries_2018.2.199/linux/pstl/include:/opt/intel/compilers_and_libraries_2018.2.199/linux/daal/include:/opt/intel/compilers_and_libraries_2018.2.199/linux/tbb/include:/opt/intel/compilers_and_libraries_2018.2.199/linux/mkl/include:/opt/intel/compilers_and_libraries_2018.2.199/linux/ipp/include
+* CPU : x86_64
+* CRAY_MPICH2_DIR : /opt/cray/pe/mpt/7.7.3/gni/mpich-intel/16.0
+* CRAY_MPICH2_VER : 7.7.3
+* CRAY_MPICH_BASEDIR : /opt/cray/pe/mpt/7.7.3/gni
+* CRAY_MPICH_DIR : /opt/cray/pe/mpt/7.7.3/gni/mpich-intel/16.0
+* CRAY_MPICH_ROOTDIR : /opt/cray/pe/mpt/7.7.3
+* CSHEDIT : emacs
+* DAALROOT : /opt/intel/compilers_and_libraries_2018.2.199/linux/daal
+* ENV : /etc/tacc/bash.bashrc
+* FROM_HEADER : 
+* FSLDIR : /usr/share/fsl/5.0
+* FSLMULTIFILEQUIT : TRUE
+* FSLOUTPUTTYPE : NIFTI_GZ
+* FSLTCLSH : /usr/bin/tclsh
+* FSLWISH : /usr/bin/wish
+* GIT_EXEC_PATH : /opt/apps/git/2.24.1/libexec/git-core
+* GIT_PAGER : cat
+* GIT_TEMPLATE_DIR : /opt/apps/git/2.24.1/share/git-core/templates
+* G_BROKEN_FILENAMES : 1
+* G_FILENAME_ENCODING : @locale,UTF-8,ISO-8859-15,CP1252
+* HISTSIZE : 1000
+* HOME : /home1/06028/tbweng
+* HOST : login1
+* HOSTNAME : login1
+* HOSTTYPE : x86_64
+* ICC_BIN : /opt/intel/compilers_and_libraries_2018.2.199/linux/bin/intel64
+* ICC_LIB : /opt/intel/compilers_and_libraries_2018.2.199/linux/compiler/lib/intel64
+* IFC_BIN : /opt/intel/compilers_and_libraries_2018.2.199/linux/bin/intel64
+* IFC_LIB : /opt/intel/compilers_and_libraries_2018.2.199/linux/compiler/lib/intel64
+* INFODIR : /usr/local/info:/usr/share/info:/usr/info
+* INFOPATH : /usr/local/info:/usr/share/info:/usr/info
+* INPUTRC : /etc/inputrc
+* INTEL_LICENSE_FILE : /home1/06028/tbweng/intel/licenses:/opt/intel/licenses:/opt/intel/compilers_and_libraries_2018.2.199/linux/licenses
+* IPPROOT : /opt/intel/compilers_and_libraries_2018.2.199/linux/ipp
+* JAVA_BINDIR : /usr/lib64/jvm/jre/bin
+* JAVA_HOME : /usr/lib64/jvm/jre
+* JAVA_ROOT : /usr/lib64/jvm/jre
+* JPY_PARENT_PID : 7441
+* JRE_HOME : /usr/lib64/jvm/jre
+* KERNEL_LAUNCH_TIMEOUT : 40
+* LANG : en_US.UTF-8
+* LAUNCHER_DIR : /home1/06028/tbweng/launcher
+* LD_LIBRARY_PATH : /usr/lib/fsl/5.0::/.singularity.d/libs
+* LD_PRELOAD : /opt/apps/xalt/xalt/lib64/libxalt_init.so
+* LESS : -M -I
+* LESSCLOSE : lessclose.sh %s %s
+* LESSKEY : /etc/lesskey.bin
+* LESSOPEN : lessopen.sh %s
+* LESS_ADVANCED_PREPROCESSOR : no
+* LIBGL_DEBUG : quiet
+* LIBRARY_PATH : /opt/intel/compilers_and_libraries_2018.2.199/linux/daal/../tbb/lib/intel64_lin/gcc4.4:/opt/intel/compilers_and_libraries_2018.2.199/linux/daal/lib/intel64_lin:/opt/intel/compilers_and_libraries_2018.2.199/linux/tbb/lib/intel64/gcc4.7:/opt/intel/compilers_and_libraries_2018.2.199/linux/mkl/lib/intel64_lin:/opt/intel/compilers_and_libraries_2018.2.199/linux/compiler/lib/intel64_lin:/opt/intel/compilers_and_libraries_2018.2.199/linux/ipp/lib/intel64
+* LINES : 55
+* LMOD_CMD : /opt/apps/lmod/lmod/libexec/lmod
+* LMOD_DIR : /opt/apps/lmod/lmod/libexec
+* LMOD_FAMILY_COMPILER : intel
+* LMOD_FAMILY_COMPILER_VERSION : 18.0.2
+* LMOD_FAMILY_MPI : cray_mpich
+* LMOD_FAMILY_MPI_VERSION : 7.7.3
+* LMOD_FAMILY_PYTHON : python3
+* LMOD_FAMILY_PYTHON_VERSION : 3.7.0
+* LMOD_FAMILY_TACC : TACC
+* LMOD_FAMILY_TACC_VERSION : 1.0
+* LMOD_PKG : /opt/apps/lmod/lmod
+* LMOD_ROOT : /opt/apps/lmod
+* LMOD_SETTARG_FULL_SUPPORT : yes
+* LMOD_SYSTEM_DEFAULT_MODULES : TACC
+* LMOD_VERSION : 8.3.6
+* LOADEDMODULES : intel/18.0.2:cray_mpich/7.7.3:git/2.24.1:autotools/1.2:python3/3.7.0:cmake/3.16.1:xalt/2.8:TACC/1.0:tacc-singularity/3.4.2
+* LOGNAME : tbweng
+* LS_COLORS : no=00:fi=00:di=01;34:ln=00;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=41;33;01:ex=00;32:*.cmd=00;32:*.exe=01;32:*.com=01;32:*.bat=01;32:*.btm=01;32:*.dll=01;32:*.tar=00;31:*.tbz=00;31:*.tgz=00;31:*.rpm=00;31:*.deb=00;31:*.arj=00;31:*.taz=00;31:*.lzh=00;31:*.lzma=00;31:*.zip=00;31:*.zoo=00;31:*.z=00;31:*.Z=00;31:*.gz=00;31:*.bz2=00;31:*.tb2=00;31:*.tz2=00;31:*.tbz2=00;31:*.xz=00;31:*.avi=01;35:*.bmp=01;35:*.fli=01;35:*.gif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mng=01;35:*.mov=01;35:*.mpg=01;35:*.pcx=01;35:*.pbm=01;35:*.pgm=01;35:*.png=01;35:*.ppm=01;35:*.tga=01;35:*.tif=01;35:*.xbm=01;35:*.xpm=01;35:*.dl=01;35:*.gl=01;35:*.wmv=01;35:*.aiff=00;32:*.au=00;32:*.mid=00;32:*.mp3=00;32:*.ogg=00;32:*.voc=00;32:*.wav=00;32:
+* LS_OPTIONS : -N --color=tty -T 0
+* MACHTYPE : x86_64-suse-linux
+* MAIL : /var/mail/tbweng
+* MANPATH : /opt/apps/tacc-singularity/3.4.2/share/man:/usr/X11R6/man:/usr/kerberos/man:/usr/man:/opt/apps/intel18/python3/3.7.0/share/man:/opt/apps/intel18/python3/3.7.0/man:/opt/apps/git/2.24.1/share/man:/opt/cray/pe/mpt/7.7.3/gni/man/mpich:/opt/intel/documentation_2018/en/man/common:/opt/intel/documentation_2018/en/debugger/gdb-igfx/man:/opt/intel/documentation_2018/en/debugger/gdb-ia/man:/usr/local/man:/usr/share/man:/opt/cray/share/man
+* MINICOM : -c on
+* MKLROOT : /opt/intel/compilers_and_libraries_2018.2.199/linux/mkl
+* MODULEPATH : /opt/apps/intel18/cray_mpich_7_7/modulefiles:/opt/apps/intel18/modulefiles:/opt/apps/modulefiles:/opt/apps/tools/modulefiles
+* MODULESHOME : /opt/apps/lmod/lmod
+* MORE : -sl
+* MPICH_DIR : /opt/cray/pe/mpt/7.7.3/gni/mpich-intel/16.0
+* MPICH_HOME : /opt/apps/intel18/cray_mpich/7.7.3
+* MPLBACKEND : module://ipykernel.pylab.backend_inline
+* NLSPATH : /opt/intel/debugger_2018/gdb/intel64/share/locale/%l_%t/%N:/opt/intel/compilers_and_libraries_2018.2.199/linux/mkl/lib/intel64/locale/%l_%t/%N:/opt/intel/compilers_and_libraries_2018.2.199/linux/compiler/lib/intel64/locale/%l_%t/%N
+* NNTPSERVER : news
+* OMP_NUM_THREADS : 1
+* OSTYPE : linux
+* PAGER : cat
+* PATH : /usr/local/miniconda/bin:/opt/ICA-AROMA:/usr/lib/ants:/usr/lib/fsl/5.0:/opt/afni:/opt/c3d//bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+* PERL5LIB : /usr/lib/perl5/site_perl/5.18.2/x86_64-linux-thread-multi
+* PE_CXX_PKGCONFIG_LIBS : mpichcxx
+* PE_FORTRAN_PKGCONFIG_LIBS : mpichf90
+* PE_INTEL_FIXED_PKGCONFIG_PATH : /opt/cray/pe/mpt/7.7.3/gni/mpich-intel/16.0/lib/pkgconfig
+* PE_MPICH_ALTERNATE_LIBS_dpm : _dpm
+* PE_MPICH_ALTERNATE_LIBS_multithreaded : _mt
+* PE_MPICH_CXX_PKGCONFIG_LIBS : mpichcxx
+* PE_MPICH_DIR_CRAY_DEFAULT64 : 64
+* PE_MPICH_FIXED_PRGENV : INTEL
+* PE_MPICH_FORTRAN_PKGCONFIG_LIBS : mpichf90
+* PE_MPICH_GENCOMPILERS_CRAY : 8.6
+* PE_MPICH_GENCOMPILERS_GNU : 7.1 5.1 4.9
+* PE_MPICH_GENCOMPS_CRAY : 86
+* PE_MPICH_GENCOMPS_GNU : 71 51 49
+* PE_MPICH_MODULE_NAME : cray-mpich
+* PE_MPICH_NV_LIBS : 
+* PE_MPICH_NV_LIBS_nvidia20 : -lcudart
+* PE_MPICH_NV_LIBS_nvidia35 : -lcudart
+* PE_MPICH_NV_LIBS_nvidia60 : -lcudart
+* PE_MPICH_PKGCONFIG_LIBS : mpich
+* PE_MPICH_PKGCONFIG_VARIABLES : PE_MPICH_NV_LIBS_@accelerator@:PE_MPICH_ALTERNATE_LIBS_@multithreaded@:PE_MPICH_ALTERNATE_LIBS_@dpm@
+* PE_MPICH_TARGET_VAR_nvidia20 : -lcudart
+* PE_MPICH_TARGET_VAR_nvidia35 : -lcudart
+* PE_MPICH_VOLATILE_PKGCONFIG_PATH : /opt/cray/pe/mpt/7.7.3/gni/mpich-@PRGENV@@PE_MPICH_DIR_DEFAULT64@/@PE_MPICH_GENCOMPS@/lib/pkgconfig
+* PE_MPICH_VOLATILE_PRGENV : CRAY GNU
+* PE_PKGCONFIG_LIBS : mpich
+* PE_PKGCONFIG_PRODUCTS : PE_MPICH
+* PKG_CONFIG_PATH : /opt/intel/compilers_and_libraries_2018.2.199/linux/mkl/bin/pkgconfig
+* POSSUMDIR : /usr/share/fsl/5.0
+* PROFILEREAD : true
+* PROMPT_COMMAND : ${X_SET_TITLE_BAR:-:} "$USER@${SHOST}:${PWD/#$HOME/~}"
+* PS1 : Singularity> 
+* PSTLROOT : /opt/intel/compilers_and_libraries_2018.2.199/linux/pstl
+* PWD : /scratch/05201/bhickson/preprocdata
+* PYTHONPATH : /opt/apps/intel18/cray_mpich_7_7/python3/3.7.0/lib/python3.7/site-packages
+* PYTHONSTARTUP : /etc/pythonstart
+* QT_SYSTEM_DIR : /usr/share/desktop-data
+* SCRATCH : /scratch/06028/tbweng
+* SHELL : /bin/bash
+* SHLVL : 2
+* SINGULARITY_APPNAME : 
+* SINGULARITY_CONTAINER : /scratch/05201/bhickson/preprocdata/fcpindi_c-pac_latest-1.5.0.sif
+* SINGULARITY_NAME : fcpindi_c-pac_latest-1.5.0.sif
+* SLURM_CONF : /etc/slurm/slurm.conf
+* SQUEUE_FORMAT : %.18i %.15P %.8j %.8u %.2t %.10M %.6D %R
+* SSH_CLIENT : 136.49.21.111 56467 22
+* SSH_CONNECTION : 136.49.21.111 56467 129.114.62.196 22
+* SSH_SENDS_LOCALE : yes
+* SSH_TTY : /dev/pts/174
+* STOCKYARD : /work/06028/tbweng
+* TACC_AUTOTOOLS_BIN : /opt/apps/autotools/1.2/bin
+* TACC_AUTOTOOLS_DIR : /opt/apps/autotools/1.2
+* TACC_CMAKE_BIN : /opt/apps/cmake/3.16.1/bin
+* TACC_CMAKE_DIR : /opt/apps/cmake/3.16.1
+* TACC_CRAY_DMAPP_INC : /opt/cray/dmapp/default/include
+* TACC_CRAY_DMAPP_LIB : /opt/cray/dmapp/default/lib64
+* TACC_CRAY_MPT_INC : /opt/cray/pe/mpt/7.7.3/gni/mpich-intel/16.0/include
+* TACC_CRAY_MPT_LIB : /opt/cray/pe/mpt/7.7.3/gni/mpich-intel/16.0/lib
+* TACC_CRAY_PMI_INC : /opt/cray/pe/pmi/default/include
+* TACC_CRAY_PMI_LIB : /opt/cray/pe/pmi/default/lib64
+* TACC_CRAY_UDREG_INC : /opt/cray/udreg/default/include
+* TACC_CRAY_UDREG_LIB : /opt/cray/udreg/default/lib64
+* TACC_CRAY_UGNI_INC : /opt/cray/ugni/default/include
+* TACC_CRAY_UGNI_LIB : /opt/cray/ugni/default/lib64
+* TACC_CRAY_XPMEM_INC : /opt/cray/xpmem/default/include
+* TACC_CRAY_XPMEM_LIB : /opt/cray/xpmem/default/lib64
+* TACC_DOMAIN : ls5
+* TACC_FAMILY_COMPILER : intel
+* TACC_FAMILY_COMPILER_VERSION : 18.0.2
+* TACC_FAMILY_MPI : cray_mpich
+* TACC_FAMILY_MPI_VERSION : 7.7.3
+* TACC_FAMILY_PYTHON : python3
+* TACC_FAMILY_PYTHON_VERSION : 3.7.0
+* TACC_FAMILY_TACC : TACC
+* TACC_FAMILY_TACC_VERSION : 1.0
+* TACC_GIT_BIN : /opt/apps/git/2.24.1/bin
+* TACC_GIT_DIR : /opt/apps/git/2.24.1
+* TACC_GIT_LIB : /opt/apps/git/2.24.1/lib
+* TACC_INTEL_BIN : /opt/intel/compilers_and_libraries_2018.2.199/linux/bin/intel64
+* TACC_INTEL_DIR : /opt/intel/compilers_and_libraries_2018.2.199/linux
+* TACC_INTEL_INC : /opt/intel/compilers_and_libraries_2018.2.199/linux/compiler/include/intel64
+* TACC_INTEL_LIB : /opt/intel/compilers_and_libraries_2018.2.199/linux/compiler/lib/intel64
+* TACC_MKL_DIR : /opt/intel/compilers_and_libraries_2018.2.199/linux/mkl
+* TACC_MKL_INC : /opt/intel/compilers_and_libraries_2018.2.199/linux/mkl/include
+* TACC_MKL_LIB : /opt/intel/compilers_and_libraries_2018.2.199/linux/mkl/lib/intel64
+* TACC_MPI_GETMODE : cray_slurm
+* TACC_PUBLIC_MACHINE : 1
+* TACC_PYTHON3_BIN : /opt/apps/intel18/python3/3.7.0/bin
+* TACC_PYTHON3_DIR : /opt/apps/intel18/python3/3.7.0
+* TACC_PYTHON3_INC : /opt/apps/intel18/python3/3.7.0/include
+* TACC_PYTHON3_LIB : /opt/apps/intel18/python3/3.7.0/lib
+* TACC_PYTHON3_MAN : /opt/apps/intel18/python3/3.7.0/share/man:/opt/apps/intel18/python3/3.7.0/man
+* TACC_PYTHON_VER : 3.7
+* TACC_SHOWQ_CONF : /opt/apps/tacc/bin/showq.conf
+* TACC_SINGULARITY_BIN : /opt/apps/tacc-singularity/3.4.2/bin
+* TACC_SINGULARITY_DIR : /opt/apps/tacc-singularity/3.4.2
+* TACC_SINGULARITY_ETC : /opt/apps/tacc-singularity/3.4.2/etc
+* TACC_SINGULARITY_INC : /opt/apps/tacc-singularity/3.4.2/include
+* TACC_SLURM_BIN : /usr/bin
+* TACC_SLURM_CONF : /etc/slurm/slurm.conf
+* TACC_SLURM_DIR : /usr
+* TACC_SLURM_INC : /usr/include
+* TACC_SLURM_LIB : /usr/lib
+* TACC_SYSTEM : ls5
+* TACC_VEC_FLAGS : -xCORE-AVX-I -axCORE-AVX2
+* TACC_XALT_BIN : /opt/apps/xalt/xalt/bin
+* TACC_XALT_DIR : /opt/apps/xalt/xalt/
+* TBBROOT : /opt/intel/compilers_and_libraries_2018.2.199/linux/tbb
+* TERM : xterm-color
+* TZ : US/Central
+* USER : tbweng
+* USER_PATH : /home1/06028/tbweng/miniconda3/bin:/home1/06028/tbweng/miniconda3/condabin:/home1/06028/tbweng/bin:/opt/apps/xalt/xalt/bin:/opt/apps/tacc-singularity/3.4.2/bin:/opt/apps/cmake/3.16.1/bin:/opt/apps/intel18/python3/3.7.0/bin:/opt/apps/autotools/1.2/bin:/opt/apps/git/2.24.1/bin:/opt/apps/intel18/cray_mpich/7.7.3/bin:/opt/cray/pe/mpt/7.7.3/gni/bin:/opt/intel/compilers_and_libraries_2018.2.199/linux/bin/intel64:/opt/apps/gcc/6.3.0/bin:/home1/06028/tbweng/bin:/usr/local/bin:/usr/bin:/bin:/usr/games:/usr/lib/mit/bin:/opt/apps/tacc/bin:.:/home1/06028/tbweng/linux_amd64:/home1/06028/tbweng/parallel-20200422/src:/home1/06028/tbweng/GDCM-3.0.6-Linux-x86_64/bin:/bin:/usr/bin:/sbin:/usr/sbin:/usr/local/bin:/usr/local/sbin
+* WINDOWMANAGER : 
+* WORK : /work/06028/tbweng/lonestar
+* XALT_EXECUTABLE_TRACKING : yes
+* XALT_SCALAR_SAMPLING : yes
+* XCURSOR_THEME : DMZ
+* XDG_CONFIG_DIRS : /etc/xdg
+* XDG_DATA_DIRS : /usr/share
+* XDG_RUNTIME_DIR : /run/user/853275
+* XDG_SESSION_ID : 432752
+* XKEYSYMDB : /usr/X11R6/lib/X11/XKeysymDB
+* XNLSPATH : /usr/X11R6/lib/X11/nls
+* _ : /opt/apps/tacc-singularity/3.4.2/bin/singularity
+* _CE_CONDA : 
+* _CE_M : 
+* _LMFILES_ : /opt/apps/modulefiles/intel/18.0.2.lua:/opt/apps/intel18/modulefiles/cray_mpich/7.7.3.lua:/opt/apps/modulefiles/git/2.24.1.lua:/opt/apps/modulefiles/autotools/1.2.lua:/opt/apps/intel18/cray_mpich_7_7/modulefiles/python3/3.7.0.lua:/opt/apps/modulefiles/cmake/3.16.1.lua:/opt/apps/modulefiles/xalt/2.8.lua:/opt/apps/modulefiles/TACC/1.0.lua:/opt/apps/modulefiles/tacc-singularity/3.4.2.lua
+* _ModuleTable001_ : X01vZHVsZVRhYmxlXz17WyJNVHZlcnNpb24iXT0zLFsiY19yZWJ1aWxkVGltZSJdPWZhbHNlLFsiY19zaG9ydFRpbWUiXT1mYWxzZSxkZXB0aFQ9e30sZmFtaWx5PXtbIk1QSSJdPSJjcmF5X21waWNoIixbIlRBQ0MiXT0iVEFDQyIsWyJjb21waWxlciJdPSJpbnRlbCIsWyJweXRob24iXT0icHl0aG9uMyIsfSxtVD17VEFDQz17WyJmbiJdPSIvb3B0L2FwcHMvbW9kdWxlZmlsZXMvVEFDQy8xLjAubHVhIixbImZ1bGxOYW1lIl09IlRBQ0MvMS4wIixbImxvYWRPcmRlciJdPTgscHJvcFQ9e30sWyJzdGFja0RlcHRoIl09MCxbInN0YXR1cyJdPSJhY3RpdmUiLFsidXNlck5hbWUiXT0iVEFDQyIsfSxhdXRvdG9vbHM9e1siZm4iXT0iL29wdC9hcHBzL21vZHVsZWZpbGVzL2F1dG90
+* _ModuleTable002_ : b29scy8xLjIubHVhIixbImZ1bGxOYW1lIl09ImF1dG90b29scy8xLjIiLFsibG9hZE9yZGVyIl09NCxwcm9wVD17fSxbInN0YWNrRGVwdGgiXT0xLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJhdXRvdG9vbHMiLH0sY21ha2U9e1siZm4iXT0iL29wdC9hcHBzL21vZHVsZWZpbGVzL2NtYWtlLzMuMTYuMS5sdWEiLFsiZnVsbE5hbWUiXT0iY21ha2UvMy4xNi4xIixbImxvYWRPcmRlciJdPTYscHJvcFQ9e30sWyJzdGFja0RlcHRoIl09MSxbInN0YXR1cyJdPSJhY3RpdmUiLFsidXNlck5hbWUiXT0iY21ha2UiLH0sY3JheV9tcGljaD17WyJmbiJdPSIvb3B0L2FwcHMvaW50ZWwxOC9tb2R1bGVmaWxlcy9jcmF5X21waWNoLzcuNy4zLmx1YSIsWyJmdWxsTmFtZSJd
+* _ModuleTable003_ : PSJjcmF5X21waWNoLzcuNy4zIixbImxvYWRPcmRlciJdPTIscHJvcFQ9e30sWyJzdGFja0RlcHRoIl09MSxbInN0YXR1cyJdPSJhY3RpdmUiLFsidXNlck5hbWUiXT0iY3JheV9tcGljaCIsfSxnaXQ9e1siZm4iXT0iL29wdC9hcHBzL21vZHVsZWZpbGVzL2dpdC8yLjI0LjEubHVhIixbImZ1bGxOYW1lIl09ImdpdC8yLjI0LjEiLFsibG9hZE9yZGVyIl09Myxwcm9wVD17fSxbInN0YWNrRGVwdGgiXT0xLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJnaXQiLH0saW50ZWw9e1siZm4iXT0iL29wdC9hcHBzL21vZHVsZWZpbGVzL2ludGVsLzE4LjAuMi5sdWEiLFsiZnVsbE5hbWUiXT0iaW50ZWwvMTguMC4yIixbImxvYWRPcmRlciJdPTEscHJvcFQ9e30sWyJzdGFj
+* _ModuleTable004_ : a0RlcHRoIl09MSxbInN0YXR1cyJdPSJhY3RpdmUiLFsidXNlck5hbWUiXT0iaW50ZWwiLH0scHl0aG9uMz17WyJmbiJdPSIvb3B0L2FwcHMvaW50ZWwxOC9jcmF5X21waWNoXzdfNy9tb2R1bGVmaWxlcy9weXRob24zLzMuNy4wLmx1YSIsWyJmdWxsTmFtZSJdPSJweXRob24zLzMuNy4wIixbImxvYWRPcmRlciJdPTUsbW5hbWVBPXt7WyJmbiJdPSIvb3B0L2FwcHMvaW50ZWwxOC9tb2R1bGVmaWxlcy9weXRob24zLzMuNy4wLmx1YSIsWyJzbiJdPSJweXRob24zIixbInVzZXJOYW1lIl09InB5dGhvbjMvMy43LjAiLFsidmVyc2lvbiJdPSIzLjcuMCIsfSx9LHByb3BUPXt9LFsic3RhY2tEZXB0aCJdPTEsWyJzdGF0dXMiXT0iYWN0aXZlIixbInVzZXJOYW1lIl09InB5dGhvbjMi
+* _ModuleTable005_ : LH0sWyJ0YWNjLXNpbmd1bGFyaXR5Il09e1siZm4iXT0iL29wdC9hcHBzL21vZHVsZWZpbGVzL3RhY2Mtc2luZ3VsYXJpdHkvMy40LjIubHVhIixbImZ1bGxOYW1lIl09InRhY2Mtc2luZ3VsYXJpdHkvMy40LjIiLFsibG9hZE9yZGVyIl09OSxwcm9wVD17fSxbInN0YWNrRGVwdGgiXT0wLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJ0YWNjLXNpbmd1bGFyaXR5Iix9LHhhbHQ9e1siZm4iXT0iL29wdC9hcHBzL21vZHVsZWZpbGVzL3hhbHQvMi44Lmx1YSIsWyJmdWxsTmFtZSJdPSJ4YWx0LzIuOCIsWyJsb2FkT3JkZXIiXT03LHByb3BUPXt9LFsic3RhY2tEZXB0aCJdPTEsWyJzdGF0dXMiXT0iYWN0aXZlIixbInVzZXJOYW1lIl09InhhbHQiLH0sfSxtcGF0aEE9
+* _ModuleTable006_ : eyIvb3B0L2FwcHMvaW50ZWwxOC9jcmF5X21waWNoXzdfNy9tb2R1bGVmaWxlcyIsIi9vcHQvYXBwcy9pbnRlbDE4L21vZHVsZWZpbGVzIiwiL29wdC9hcHBzL21vZHVsZWZpbGVzIiwiL29wdC9hcHBzL3Rvb2xzL21vZHVsZWZpbGVzIix9LFsic3lzdGVtQmFzZU1QQVRIIl09Ii9vcHQvYXBwcy9tb2R1bGVmaWxlczovb3B0L2FwcHMvdG9vbHMvbW9kdWxlZmlsZXMiLH0=
+* _ModuleTable_Sz_ : 6
+* __BASHRC_SOURCED__ : 1
+* __Init_Default_Modules : 1
+* __LMOD_Priority_PATH : /opt/apps/xalt/xalt/bin:-100
+* __LMOD_REF_COUNT_COMPILER_PATH : /opt/apps/xalt/xalt/bin:1
+* __LMOD_REF_COUNT_CPATH : /opt/intel/compilers_and_libraries_2018.2.199/linux/pstl/include:1;/opt/intel/compilers_and_libraries_2018.2.199/linux/daal/include:1;/opt/intel/compilers_and_libraries_2018.2.199/linux/tbb/include:1;/opt/intel/compilers_and_libraries_2018.2.199/linux/mkl/include:1;/opt/intel/compilers_and_libraries_2018.2.199/linux/ipp/include:1
+* __LMOD_REF_COUNT_INTEL_LICENSE_FILE : /home1/06028/tbweng/intel/licenses:1;/opt/intel/licenses:1;/opt/intel/compilers_and_libraries_2018.2.199/linux/licenses:1
+* __LMOD_REF_COUNT_LD_LIBRARY_PATH : /opt/apps/intel18/python3/3.7.0/lib:1;/opt/cray/udreg/default/lib64:1;/opt/cray/ugni/default/lib64:1;/opt/cray/pe/pmi/default/lib64:1;/opt/cray/dmapp/default/lib64:1;/opt/cray/xpmem/default/lib64:1;/opt/cray/pe/mpt/7.7.3/gni/mpich-intel/16.0/lib:1;/opt/intel/debugger_2018/libipt/intel64/lib:1;/opt/intel/debugger_2018/iga/lib:1;/opt/intel/compilers_and_libraries_2018.2.199/linux/daal/../tbb/lib/intel64_lin/gcc4.4:1;/opt/intel/compilers_and_libraries_2018.2.199/linux/daal/lib/intel64_lin:1;/opt/intel/compilers_and_libraries_2018.2.199/linux/tbb/lib/intel64/gcc4.7:1;/opt/intel/compilers_and_libraries_2018.2.199/linux/mkl/lib/intel64_lin:1;/opt/intel/compilers_and_libraries_2018.2.199/linux/ipp/lib/intel64:1;/opt/intel/compilers_and_libraries_2018.2.199/linux/compiler/lib/intel64_lin:2;/opt/intel/compilers_and_libraries_2018.2.199/linux/compiler/lib/intel64:1;/opt/apps/gcc/6.3.0/lib64:1;/opt/apps/gcc/6.3.0/lib:1
+* __LMOD_REF_COUNT_LD_PRELOAD : /opt/apps/xalt/xalt/lib64/libxalt_init.so:1
+* __LMOD_REF_COUNT_LIBRARY_PATH : /opt/intel/compilers_and_libraries_2018.2.199/linux/daal/../tbb/lib/intel64_lin/gcc4.4:1;/opt/intel/compilers_and_libraries_2018.2.199/linux/daal/lib/intel64_lin:1;/opt/intel/compilers_and_libraries_2018.2.199/linux/tbb/lib/intel64/gcc4.7:1;/opt/intel/compilers_and_libraries_2018.2.199/linux/mkl/lib/intel64_lin:1;/opt/intel/compilers_and_libraries_2018.2.199/linux/compiler/lib/intel64_lin:1;/opt/intel/compilers_and_libraries_2018.2.199/linux/ipp/lib/intel64:1
+* __LMOD_REF_COUNT_LOADEDMODULES : intel/18.0.2:1;cray_mpich/7.7.3:1;git/2.24.1:1;autotools/1.2:1;python3/3.7.0:1;cmake/3.16.1:1;xalt/2.8:1;TACC/1.0:1;tacc-singularity/3.4.2:1
+* __LMOD_REF_COUNT_MANPATH : /opt/apps/tacc-singularity/3.4.2/share/man:1;/usr/X11R6/man:1;/usr/kerberos/man:1;/usr/man:1;/opt/apps/intel18/python3/3.7.0/share/man:1;/opt/apps/intel18/python3/3.7.0/man:1;/opt/apps/git/2.24.1/share/man:1;/opt/cray/pe/mpt/7.7.3/gni/man/mpich:1;/opt/intel/documentation_2018/en/man/common:1;/opt/intel/documentation_2018/en/debugger/gdb-igfx/man:1;/opt/intel/documentation_2018/en/debugger/gdb-ia/man:1;/usr/local/man:2;/usr/share/man:4;/opt/cray/share/man:1
+* __LMOD_REF_COUNT_MODULEPATH : /opt/apps/intel18/cray_mpich_7_7/modulefiles:1;/opt/apps/intel18/modulefiles:1;/opt/apps/modulefiles:1;/opt/apps/tools/modulefiles:1
+* __LMOD_REF_COUNT_NLSPATH : /opt/intel/debugger_2018/gdb/intel64/share/locale/%l_%t/%N:1;/opt/intel/compilers_and_libraries_2018.2.199/linux/mkl/lib/intel64/locale/%l_%t/%N:1;/opt/intel/compilers_and_libraries_2018.2.199/linux/compiler/lib/intel64/locale/%l_%t/%N:1
+* __LMOD_REF_COUNT_PATH : /opt/apps/xalt/xalt/bin:1;/opt/apps/tacc-singularity/3.4.2/bin:1;/opt/apps/cmake/3.16.1/bin:1;/opt/apps/intel18/python3/3.7.0/bin:2;/opt/apps/autotools/1.2/bin:1;/opt/apps/git/2.24.1/bin:1;/opt/apps/intel18/cray_mpich/7.7.3/bin:1;/opt/cray/pe/mpt/7.7.3/gni/bin:1;/opt/intel/compilers_and_libraries_2018.2.199/linux/bin/intel64:1;/opt/apps/gcc/6.3.0/bin:1;/home1/06028/tbweng/bin:1;/usr/local/bin:1;/usr/bin:2;/bin:1;/usr/games:1;/usr/lib/mit/bin:1;/opt/apps/tacc/bin:1;.:1
+* __LMOD_REF_COUNT_PERL5LIB : /usr/lib/perl5/site_perl/5.18.2/x86_64-linux-thread-multi:1
+* __LMOD_REF_COUNT_PE_PKGCONFIG_LIBS : mpich:1
+* __LMOD_REF_COUNT_PE_PKGCONFIG_PRODUCTS : PE_MPICH:1
+* __LMOD_REF_COUNT_PYTHONPATH : /opt/apps/intel18/cray_mpich_7_7/python3/3.7.0/lib/python3.7/site-packages:1
+* __LMOD_REF_COUNT__LMFILES_ : /opt/apps/modulefiles/intel/18.0.2.lua:1;/opt/apps/intel18/modulefiles/cray_mpich/7.7.3.lua:1;/opt/apps/modulefiles/git/2.24.1.lua:1;/opt/apps/modulefiles/autotools/1.2.lua:1;/opt/apps/intel18/cray_mpich_7_7/modulefiles/python3/3.7.0.lua:1;/opt/apps/modulefiles/cmake/3.16.1.lua:1;/opt/apps/modulefiles/xalt/2.8.lua:1;/opt/apps/modulefiles/TACC/1.0.lua:1;/opt/apps/modulefiles/tacc-singularity/3.4.2.lua:1
+* __PERSONAL_PATH__ : 1
+* __SET_MODULEPATH : 1
+* __TRACKER__ : 1
+

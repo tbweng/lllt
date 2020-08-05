@@ -1,0 +1,3 @@
+flameo --copefile=/scratch/05201/bhickson/preprocdata/level2/noGSR/B/cope/6/Level2_wf/copemerge/cope6_merged.nii.gz --covsplitfile=/scratch/05201/bhickson/preprocdata/level2/noGSR/B/cope/6/Level2_wf/level2design/design.grp --designfile=/scratch/05201/bhickson/preprocdata/level2/noGSR/B/cope/6/Level2_wf/level2design/design.mat --ld=stats --maskfile=/scratch/05201/bhickson/preprocdata/level2/noGSR/B/cope/6/Level2_wf/minmask/mask_merged_min.nii.gz --runmode=fe --tcontrastsfile=/scratch/05201/bhickson/preprocdata/level2/noGSR/B/cope/6/Level2_wf/level2design/design.con --varcopefile=/scratch/05201/bhickson/preprocdata/level2/noGSR/B/cope/6/Level2_wf/varcopemerge/varcope6_merged.nii.gz 
+---------------------------------------------
+

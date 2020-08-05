@@ -1,0 +1,2 @@
+fslmaths /scratch/05201/bhickson/preprocdata/level2/noGSR/A/Level2_wf/maskmerge/mask_merged.nii.gz -Tmin /scratch/05201/bhickson/preprocdata/level2/noGSR/A/Level2_wf/minmask/mask_merged_min.nii.gz
+

@@ -1,0 +1,53 @@
+[
+    {
+        "group": 1,
+        "imports": [],
+        "name": "0_maskmerge",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [],
+        "name": "1_copemerge",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [],
+        "name": "2_varcopemerge",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "0_maskmerge"
+        ],
+        "name": "3_minmask",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [],
+        "name": "4_level2design",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "2_varcopemerge",
+            "3_minmask",
+            "4_level2design",
+            "1_copemerge"
+        ],
+        "name": "5_flameo",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "5_flameo"
+        ],
+        "name": "6_datasink",
+        "size": 1
+    }
+]

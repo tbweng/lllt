@@ -1,0 +1,94 @@
+{
+    "groups": [
+        {
+            "name": "Group_00001",
+            "procs": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ],
+            "total": 7
+        }
+    ],
+    "links": [
+        {
+            "source": 5,
+            "target": 6,
+            "value": 1
+        },
+        {
+            "source": 2,
+            "target": 5,
+            "value": 1
+        },
+        {
+            "source": 3,
+            "target": 5,
+            "value": 1
+        },
+        {
+            "source": 4,
+            "target": 5,
+            "value": 1
+        },
+        {
+            "source": 1,
+            "target": 5,
+            "value": 1
+        },
+        {
+            "source": 0,
+            "target": 3,
+            "value": 1
+        }
+    ],
+    "maxN": 7,
+    "nodes": [
+        {
+            "group": 1,
+            "name": "0_maskmerge",
+            "report": "/maskmerge/_report/report.rst",
+            "result": "/maskmerge/result_maskmerge.pklz"
+        },
+        {
+            "group": 1,
+            "name": "1_copemerge",
+            "report": "/copemerge/_report/report.rst",
+            "result": "/copemerge/result_copemerge.pklz"
+        },
+        {
+            "group": 1,
+            "name": "2_varcopemerge",
+            "report": "/varcopemerge/_report/report.rst",
+            "result": "/varcopemerge/result_varcopemerge.pklz"
+        },
+        {
+            "group": 1,
+            "name": "3_minmask",
+            "report": "/minmask/_report/report.rst",
+            "result": "/minmask/result_minmask.pklz"
+        },
+        {
+            "group": 1,
+            "name": "4_level2design",
+            "report": "/level2design/_report/report.rst",
+            "result": "/level2design/result_level2design.pklz"
+        },
+        {
+            "group": 1,
+            "name": "5_flameo",
+            "report": "/flameo/_report/report.rst",
+            "result": "/flameo/result_flameo.pklz"
+        },
+        {
+            "group": 1,
+            "name": "6_datasink",
+            "report": "/datasink/_report/report.rst",
+            "result": "/datasink/result_datasink.pklz"
+        }
+    ]
+}

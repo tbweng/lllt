@@ -1,0 +1,23 @@
+[
+    [
+        "_outputs",
+        [
+            [
+                "stats_dir",
+                "/scratch/05201/bhickson/preprocdata/level2/noGSR/B/Level2_wf/flameo/stats"
+            ]
+        ]
+    ],
+    [
+        "base_directory",
+        "/scratch/05201/bhickson/preprocdata/level2/noGSR/B/L2"
+    ],
+    [
+        "parameterization",
+        true
+    ],
+    [
+        "remove_dest_dir",
+        false
+    ]
+]

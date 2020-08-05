@@ -1,0 +1,23 @@
+[
+    [
+        "dimension",
+        "T"
+    ],
+    [
+        "in_file",
+        [
+            "/scratch/05201/bhickson/preprocdata/level2/noGSR/B/Level2_wf/maskmerge/mask_merged.nii.gz",
+            "50a94ef2bcaa355745dca57ab3724ff2"
+        ]
+    ],
+    [
+        "output_type",
+        "NIFTI_GZ"
+    ],
+    [
+        "needed_outputs",
+        [
+            "out_file"
+        ]
+    ]
+]
